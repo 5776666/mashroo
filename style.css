@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(zx.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+} 
+
+
+.page{
+    background: transparent;
+    color: white;
+    width: 400px;
+    padding: 30px 40px;
+    border-radius: 15px;
+    border: 2px solid rgb(50, 49, 49);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    backdrop-filter: blur(20px);
+}
+.page h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color:white;
+}
+.ur{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: 20px 0;
+}
+.ur input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(44, 43, 43);
+    outline: none;
+    background: transparent;
+    border-radius: 40px;
+    color: white;
+    padding-left: 40px;
+}
+.ur input::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+.ur i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    color: white;
+}
+.page .box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -12px 0 15px;
+}
+.page .box a{
+    text-decoration: none;
+    color: white;
+}
+.page .box a:hover{
+    text-decoration: underline;
+}
+.page .box input{
+    accent-color: white;
+    margin-right: 3px;
+}
+.btn button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: rgb(255, 253, 253);
+    border-radius: 40px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3b3a3a;
+}
+.signup{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
